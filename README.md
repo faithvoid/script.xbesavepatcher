@@ -1,5 +1,5 @@
 ## XBE Save Patcher for XBMC
-A utility that modifies the hex of .XBE files to read/write save files from "F:\TDATA\" instead of "E:\TDATA\", or from the first partition of your secondary HDD (Cerbios users only).
+A utility that modifies the hex of .XBE files to read/write save files from "F:\TDATA\" & "F:\UDATA" instead of "E:\TDATA\" & "E:\UDATA\", or from the first partition of your secondary HDD (Cerbios users only).
 
 ## Installation:
 - Install script to "Q:\scripts\XBESavePatcher" (must be installed there as script paths are hardcoded!)
