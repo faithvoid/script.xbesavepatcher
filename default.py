@@ -7,13 +7,13 @@ def main():
     dialog = xbmcgui.Dialog()
     feeds = [
         ("- Primary HDD -", ""),
-        ("Patch .XBE Save Location (E:\ to F:\)", "RunScript(Q:\\scripts\\XBESoundtrackPatcher\\patcher.py)"),
-        ("Unpatch .XBE Save Location (F:\ to E:\)", "RunScript(Q:\\scripts\\XBESoundtrackPatcher\\unpatcher.py)"),
+        ("Patch .XBE Save Location (E:\ to F:\)", "RunScript(Q:\\scripts\\XBESavePatcher\\patcher.py)"),
+        ("Unpatch .XBE Save Location (F:\ to E:\)", "RunScript(Q:\\scripts\\XBESavePatcher\\unpatcher.py)"),
         ("- Secondary HDD | \Device\Harddisk0\Partition1 -", ""),
-        ("Patch .XBE Save Location (E:\ to H:\)", "RunScript(Q:\\scripts\\XBESoundtrackPatcher\\patcherdualhdd.py)"),
-        ("Unpatch .XBE Save Location (H:\ to E:\)", "RunScript(Q:\\scripts\\XBESoundtrackPatcher\\unpatcherdualhdd.py)"),
+        ("Patch .XBE Save Location (E:\ to H:\)", "RunScript(Q:\\scripts\\XBESavePatcher\\patcherdualhdd.py)"),
+        ("Unpatch .XBE Save Location (H:\ to E:\)", "RunScript(Q:\\scripts\\XBESavePatcher\\unpatcherdualhdd.py)"),
         ("- Utilities -", ""),
-        ("Check .XBE Save Location", "RunScript(Q:\\scripts\\XBESoundtrackPatcher\\checker.py)"),
+        ("Check .XBE Save Location", "RunScript(Q:\\scripts\\XBESavePatcher\\checker.py)"),
     ]
     
     feed_list = [name for name, _ in feeds]
