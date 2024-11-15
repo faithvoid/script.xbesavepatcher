@@ -1,4 +1,4 @@
-## XBE Soundtrack Patcher for XBMC
+## XBE Save Patcher for XBMC
 A utility that modifies the hex of .XBE files to read/write save files from "F:\TDATA\" instead of "E:\TDATA\", or from the first partition of your secondary HDD (Cerbios users only).
 
 ## Installation:
