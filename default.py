@@ -17,7 +17,7 @@ def main():
     ]
     
     feed_list = [name for name, _ in feeds]
-    selected = dialog.select(u"XBE Save Folder Patcher - Menu", feed_list)
+    selected = dialog.select(u"XBE Save Patcher - Menu", feed_list)
     
     if selected >= 0:
         name, url = feeds[selected]
